@@ -1,0 +1,458 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+/* .nav-bar img {
+    margin: 18px 0px 0px 0px;
+}
+
+header ul li {
+    padding: 10px;
+}*/
+
+header a {
+    color: rgb(29, 29, 29) !important;
+}
+
+.button {
+    display: flex;
+}
+
+.login {
+    border: none;
+    color: rgb(58, 43, 226);
+    margin: 20px;
+    width: 100px;
+}
+
+.started-now {
+    background-color: #1361F5 !important;
+    color: #ffff !important;
+    padding: 10px 27px;
+    border-radius: 5px;
+    width: 178px;
+}
+
+.body-sec {
+    margin: 80px 0px 0px 0px;
+}
+
+.text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: -1;
+
+}
+
+.text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: #223140;
+}
+
+.btn-body {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.free-trail {
+    border-radius: 5px;
+    background-color: rgba(19, 97, 245, 1);
+    color: white;
+    border: none;
+    padding: 10px 27px;
+    width: 270px;
+    font-weight: 800;
+}
+
+.demo {
+    color: rgba(9, 75, 202, 1);
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.478);
+    border-radius: 5px;
+    width: 178px;
+    padding: 10px 27px;
+    font-weight: 800;
+}
+
+.images .img1{
+    /* padding: 0px 100px 0px 100px; */
+    width: 100%;
+}
+
+.slider {
+    margin: 100px 0px 0px 0px;
+}
+.card-slider h5 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(34, 49, 64, 1);
+}
+
+.card-slider p {
+    font-family: 'ITF Devanagari Marathi', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(83, 85, 88, 1);
+}
+
+.icon-img {
+    background: rgba(236, 178, 45, 0.1);
+    padding: 5px;
+    width: 34px;
+    border-radius: 32px;
+}
+/* .mb-3{
+    margin-bottom: 1rem!important;
+} */
+
+.template {
+    margin: 80px 0px 90px 0px;
+    font-family: 'Inter', sans-serif;
+}
+.template-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.template-text {
+    font-family: 'Inter', sans-serif;
+    /* width: 780px; */
+}
+
+.template-text h1 {
+    /* width: 752px; */
+    text-align: center;
+}
+
+
+
+.template-text h1,
+.function h2 {
+    color: rgb(29, 29, 29, 1);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: -1px;
+}
+
+.template-text p {
+    /* width: 771px; */
+    text-align: center;
+}
+
+.template-text p,
+.function p {
+    color: rgba(34, 49, 64, 1);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+
+.template-functions {
+    margin: 80px 0px 0px 0px;
+}
+
+.function h5 {
+    color: rgba(9, 75, 202, 1);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: -1px;
+
+}
+
+.function-btn,
+.function-btn-2 {
+    background: rgba(19, 97, 245, 1);
+    color: white;
+    width: 224px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 27px;
+}
+
+.function-btn-2 {
+    width: 296px;
+}
+
+.function-img img{
+    width: 100%;
+    /* padding: 40px; */
+}
+
+.function-text {
+    padding-top: 40px;
+}
+
+.explore {
+    margin: 0px 0px 90px 0px;
+}
+
+.row-1 {
+    margin: 70px 0px 0px 0px;
+}
+
+.row-2 {
+    margin: 100px 0px 0px 0px;
+}
+
+.btn-explore {
+    width: 291px;
+}
+
+.software-logo {
+    background-color: rgba(47, 40, 91, 0.17);
+    box-shadow: 0px 5px 23px rgba(47, 40, 91, 0.17);
+    border-radius: 12px;
+    width: 120px;
+    padding: 32px;
+    margin: 30px;
+}
+
+.community {
+    margin: 50px 0px 0px 0px;
+}
+
+.members-card {
+    text-align: center;
+    /* width: 380px; */
+}
+
+.card-outer {
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.members-card img {
+    position: relative;
+    top: 55px;
+    z-index: 1;
+}
+
+.card-content {
+    padding: 60px 30px 30px 30px;
+    text-align: center;
+}
+
+.card-content p{
+    /* margin-bottom: 35px; */
+    font-family: 'ITF Devanagari Marathi', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(83, 85, 88, 1);
+    /* line-height: 22px; */
+
+}
+
+.card-content h4 {
+    margin-bottom: 25px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: rgba(217, 217, 217, 1);
+}
+
+.card-content h5 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(34, 49, 64, 1);
+    line-height: 24px;
+
+}
+
+.mybutton {
+    background-color: black !important;
+}
+
+/* counter */
+
+.sec-counter {
+    margin: 90px 0px 60px 0px;
+    color: rgba(9, 75, 202, 1);
+    letter-spacing: 1px;
+
+}
+
+.counter {
+    text-align: center;
+    justify-content: center;
+}
+
+.counter h1 {
+    display: inline;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    color: rgba(9, 75, 202, 1);
+}
+
+.counter p{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(34, 49, 64, 1);
+    
+}
+/* future work */
+.future-work{
+    background: rgba(217, 217, 217, 0.1);
+}
+.to-center{
+    padding: 45px;
+    text-align: center;
+}
+
+/* grow business */
+.grow-business{
+    margin: 90px 0px 90px 0px;
+}
+.grow-business .business-head{
+    margin: 0px 0px 90px 0px;
+}
+
+.parent-div{
+    display: flex;
+    flex-direction: row;
+}
+.first{
+    background: rgba(19, 97, 245, 0.1);
+    color: rgba(0, 76, 230, 1);
+    padding: 3px 8px;
+    border-radius: 2px;
+    margin: 0px 5px 0px 0px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+}
+.second{
+    background: rgba(19, 97, 245, 0.1);
+    color: rgba(0, 76, 230, 1);
+    padding: 3px 8px;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+}
+.grow-business .card{
+    margin: 10px 0px 10px 0px;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.15);
+}
+.grow-business .card p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #223140;
+}
+
+/* footer */
+footer {
+    background-color: rgba(217, 217, 217, 0.1); 
+    margin: 80px 0px 0px 0px;
+}
+.footer-content{
+    padding: 60px 0px 0px 0px;
+}
+.footer-content h4 {
+    font-family: 'Secular One', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+    color: rgba(29, 29, 29, 1);
+
+}
+
+.footer-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(83, 85, 88, 1)
+
+}
+
+.footer-content .icon i{
+    color: #094bca;
+    margin: 0px 30px 0px 0px;
+    line-height: 18px;
+}
+
+footer .footer-content-1{
+    padding: 60px 0px 0px 0px;
+}
+footer .footer-content-1 h6{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(29, 29, 29);
+}
+.footer-content-1 ul{
+    list-style: none;
+    padding-left: 0px;
+    line-height: 30px;
+}
+.footer-content-1 ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(83, 85, 88);
+}
+footer .card{
+    margin: 10px 0px 10px 0px;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+footer .card-body{
+    padding: 15px 0px 0px 15px!important;
+}
+
+footer .card .card-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(83, 85, 88);
+}
+
+footer .card a, .grow-business .card a{
+    padding: 0px;
+    text-decoration: none;
+    color: rgb(9, 75, 202);
+    font-weight: 600;
+    font-size: 16px;
+}
+footer .card a{
+    line-height: 24px;
+}
+.grow-business .card a{
+    line-height: 30px;
+}
+footer .margin{
+    margin: 70px 0px 0px 0px;
+}
+
+@media (max-width: 1130) and (min-width:760){
+    .software-logo{
+        width: 83px;
+        padding: 15px;
+        margin: 5px;
+    }
+}
